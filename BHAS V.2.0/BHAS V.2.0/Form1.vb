@@ -10,6 +10,7 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnguest.Click
         Form3.Show()
+        Form3.Label1.Text = "You're logged in as Guest"
         Me.Hide()
     End Sub
 
