@@ -47,6 +47,8 @@ Partial Class Form2
         'btnlogin
         '
         Me.btnlogin.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.btnlogin.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnlogin.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnlogin.ForeColor = System.Drawing.Color.White
         Me.btnlogin.Location = New System.Drawing.Point(44, 156)
@@ -96,6 +98,8 @@ Partial Class Form2
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.IndianRed
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(44, 194)

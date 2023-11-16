@@ -28,6 +28,13 @@ Partial Class Form4
         Me.btnedit = New System.Windows.Forms.Button()
         Me.btnadd = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.IdDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.FullNameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ContactNoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.GenderDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AddressDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TableBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.BlueHouseAppartmentDataSet3 = New BHAS_V._2._0.BlueHouseAppartmentDataSet3()
         Me.TblboardersBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.BlueHouseAppartmentDataSet = New BHAS_V._2._0.BlueHouseAppartmentDataSet()
         Me.Tbl_boardersTableAdapter = New BHAS_V._2._0.BlueHouseAppartmentDataSetTableAdapters.tbl_boardersTableAdapter()
@@ -35,25 +42,18 @@ Partial Class Form4
         Me.BlueHouseAppartmentDataSet1BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.BlueHouseAppartmentDataSet2 = New BHAS_V._2._0.BlueHouseAppartmentDataSet2()
         Me.BlueHouseAppartmentDataSet2BindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.BlueHouseAppartmentDataSet3 = New BHAS_V._2._0.BlueHouseAppartmentDataSet3()
-        Me.TableBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.TableTableAdapter = New BHAS_V._2._0.BlueHouseAppartmentDataSet3TableAdapters.TableTableAdapter()
-        Me.IdDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FullNameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ContactNoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.GenderDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AddressDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BlueHouseAppartmentDataSet4 = New BHAS_V._2._0.BlueHouseAppartmentDataSet()
         Me.BlueHouseAppartmentDataSet5 = New BHAS_V._2._0.BlueHouseAppartmentDataSet()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BlueHouseAppartmentDataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TblboardersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BlueHouseAppartmentDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BlueHouseAppartmentDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BlueHouseAppartmentDataSet1BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BlueHouseAppartmentDataSet2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BlueHouseAppartmentDataSet2BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BlueHouseAppartmentDataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BlueHouseAppartmentDataSet4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BlueHouseAppartmentDataSet5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -61,6 +61,8 @@ Partial Class Form4
         'btndelete
         '
         Me.btndelete.BackColor = System.Drawing.Color.Firebrick
+        Me.btndelete.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btndelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btndelete.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btndelete.ForeColor = System.Drawing.Color.White
         Me.btndelete.Location = New System.Drawing.Point(604, 100)
@@ -73,6 +75,8 @@ Partial Class Form4
         'btnedit
         '
         Me.btnedit.BackColor = System.Drawing.Color.SeaGreen
+        Me.btnedit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnedit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnedit.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnedit.ForeColor = System.Drawing.Color.White
         Me.btnedit.Location = New System.Drawing.Point(604, 56)
@@ -85,6 +89,8 @@ Partial Class Form4
         'btnadd
         '
         Me.btnadd.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.btnadd.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnadd.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnadd.ForeColor = System.Drawing.Color.White
         Me.btnadd.Location = New System.Drawing.Point(604, 12)
@@ -101,12 +107,52 @@ Partial Class Form4
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdDataGridViewTextBoxColumn, Me.FullNameDataGridViewTextBoxColumn, Me.ContactNoDataGridViewTextBoxColumn, Me.GenderDataGridViewTextBoxColumn, Me.AddressDataGridViewTextBoxColumn})
         Me.DataGridView1.DataSource = Me.TableBindingSource
         Me.DataGridView1.Location = New System.Drawing.Point(14, 11)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(574, 243)
         Me.DataGridView1.TabIndex = 10
+        '
+        'IdDataGridViewTextBoxColumn
+        '
+        Me.IdDataGridViewTextBoxColumn.DataPropertyName = "Id"
+        Me.IdDataGridViewTextBoxColumn.HeaderText = "Id"
+        Me.IdDataGridViewTextBoxColumn.Name = "IdDataGridViewTextBoxColumn"
+        '
+        'FullNameDataGridViewTextBoxColumn
+        '
+        Me.FullNameDataGridViewTextBoxColumn.DataPropertyName = "FullName"
+        Me.FullNameDataGridViewTextBoxColumn.HeaderText = "FullName"
+        Me.FullNameDataGridViewTextBoxColumn.Name = "FullNameDataGridViewTextBoxColumn"
+        '
+        'ContactNoDataGridViewTextBoxColumn
+        '
+        Me.ContactNoDataGridViewTextBoxColumn.DataPropertyName = "ContactNo"
+        Me.ContactNoDataGridViewTextBoxColumn.HeaderText = "ContactNo"
+        Me.ContactNoDataGridViewTextBoxColumn.Name = "ContactNoDataGridViewTextBoxColumn"
+        '
+        'GenderDataGridViewTextBoxColumn
+        '
+        Me.GenderDataGridViewTextBoxColumn.DataPropertyName = "Gender"
+        Me.GenderDataGridViewTextBoxColumn.HeaderText = "Gender"
+        Me.GenderDataGridViewTextBoxColumn.Name = "GenderDataGridViewTextBoxColumn"
+        '
+        'AddressDataGridViewTextBoxColumn
+        '
+        Me.AddressDataGridViewTextBoxColumn.DataPropertyName = "Address"
+        Me.AddressDataGridViewTextBoxColumn.HeaderText = "Address"
+        Me.AddressDataGridViewTextBoxColumn.Name = "AddressDataGridViewTextBoxColumn"
+        '
+        'TableBindingSource
+        '
+        Me.TableBindingSource.DataMember = "Table"
+        Me.TableBindingSource.DataSource = Me.BlueHouseAppartmentDataSet3
+        '
+        'BlueHouseAppartmentDataSet3
+        '
+        Me.BlueHouseAppartmentDataSet3.DataSetName = "BlueHouseAppartmentDataSet3"
+        Me.BlueHouseAppartmentDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'TblboardersBindingSource
         '
@@ -142,49 +188,9 @@ Partial Class Form4
         Me.BlueHouseAppartmentDataSet2BindingSource.DataSource = Me.BlueHouseAppartmentDataSet2
         Me.BlueHouseAppartmentDataSet2BindingSource.Position = 0
         '
-        'BlueHouseAppartmentDataSet3
-        '
-        Me.BlueHouseAppartmentDataSet3.DataSetName = "BlueHouseAppartmentDataSet3"
-        Me.BlueHouseAppartmentDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'TableBindingSource
-        '
-        Me.TableBindingSource.DataMember = "Table"
-        Me.TableBindingSource.DataSource = Me.BlueHouseAppartmentDataSet3
-        '
         'TableTableAdapter
         '
         Me.TableTableAdapter.ClearBeforeFill = True
-        '
-        'IdDataGridViewTextBoxColumn
-        '
-        Me.IdDataGridViewTextBoxColumn.DataPropertyName = "Id"
-        Me.IdDataGridViewTextBoxColumn.HeaderText = "Id"
-        Me.IdDataGridViewTextBoxColumn.Name = "IdDataGridViewTextBoxColumn"
-        '
-        'FullNameDataGridViewTextBoxColumn
-        '
-        Me.FullNameDataGridViewTextBoxColumn.DataPropertyName = "FullName"
-        Me.FullNameDataGridViewTextBoxColumn.HeaderText = "FullName"
-        Me.FullNameDataGridViewTextBoxColumn.Name = "FullNameDataGridViewTextBoxColumn"
-        '
-        'ContactNoDataGridViewTextBoxColumn
-        '
-        Me.ContactNoDataGridViewTextBoxColumn.DataPropertyName = "ContactNo"
-        Me.ContactNoDataGridViewTextBoxColumn.HeaderText = "ContactNo"
-        Me.ContactNoDataGridViewTextBoxColumn.Name = "ContactNoDataGridViewTextBoxColumn"
-        '
-        'GenderDataGridViewTextBoxColumn
-        '
-        Me.GenderDataGridViewTextBoxColumn.DataPropertyName = "Gender"
-        Me.GenderDataGridViewTextBoxColumn.HeaderText = "Gender"
-        Me.GenderDataGridViewTextBoxColumn.Name = "GenderDataGridViewTextBoxColumn"
-        '
-        'AddressDataGridViewTextBoxColumn
-        '
-        Me.AddressDataGridViewTextBoxColumn.DataPropertyName = "Address"
-        Me.AddressDataGridViewTextBoxColumn.HeaderText = "Address"
-        Me.AddressDataGridViewTextBoxColumn.Name = "AddressDataGridViewTextBoxColumn"
         '
         'BlueHouseAppartmentDataSet4
         '
@@ -206,19 +212,19 @@ Partial Class Form4
         Me.Controls.Add(Me.btnedit)
         Me.Controls.Add(Me.btnadd)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form4"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Master List"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TableBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BlueHouseAppartmentDataSet3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TblboardersBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BlueHouseAppartmentDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BlueHouseAppartmentDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BlueHouseAppartmentDataSet1BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BlueHouseAppartmentDataSet2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BlueHouseAppartmentDataSet2BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BlueHouseAppartmentDataSet3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TableBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BlueHouseAppartmentDataSet4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BlueHouseAppartmentDataSet5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

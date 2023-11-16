@@ -46,6 +46,8 @@ Partial Class Form3
         'btnpayments
         '
         Me.btnpayments.BackColor = System.Drawing.Color.Firebrick
+        Me.btnpayments.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnpayments.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnpayments.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnpayments.ForeColor = System.Drawing.Color.White
         Me.btnpayments.Location = New System.Drawing.Point(334, 144)
@@ -58,6 +60,8 @@ Partial Class Form3
         'btnrooms
         '
         Me.btnrooms.BackColor = System.Drawing.Color.SeaGreen
+        Me.btnrooms.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnrooms.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnrooms.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnrooms.ForeColor = System.Drawing.Color.White
         Me.btnrooms.Location = New System.Drawing.Point(334, 100)
@@ -70,6 +74,8 @@ Partial Class Form3
         'btnmasterlist
         '
         Me.btnmasterlist.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.btnmasterlist.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnmasterlist.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnmasterlist.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnmasterlist.ForeColor = System.Drawing.Color.White
         Me.btnmasterlist.Location = New System.Drawing.Point(334, 56)
@@ -93,6 +99,8 @@ Partial Class Form3
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Magenta
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(334, 188)
@@ -105,6 +113,8 @@ Partial Class Form3
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(334, 232)
