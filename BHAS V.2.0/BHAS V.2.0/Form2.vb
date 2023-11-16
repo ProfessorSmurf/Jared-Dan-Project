@@ -27,8 +27,6 @@
         Label1.BackColor = Color.Transparent
         Label2.Parent = PictureBox1
         Label2.BackColor = Color.Transparent
-        checkboxpass.Parent = PictureBox1
-        checkboxpass.BackColor = Color.Transparent
 
     End Sub
 
