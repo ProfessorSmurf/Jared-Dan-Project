@@ -45,6 +45,7 @@ Partial Class Form4
         Me.TableTableAdapter = New BHAS_V._2._0.BlueHouseAppartmentDataSet3TableAdapters.TableTableAdapter()
         Me.BlueHouseAppartmentDataSet4 = New BHAS_V._2._0.BlueHouseAppartmentDataSet()
         Me.BlueHouseAppartmentDataSet5 = New BHAS_V._2._0.BlueHouseAppartmentDataSet()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BlueHouseAppartmentDataSet3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -202,11 +203,24 @@ Partial Class Form4
         Me.BlueHouseAppartmentDataSet5.DataSetName = "BlueHouseAppartmentDataSet"
         Me.BlueHouseAppartmentDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Location = New System.Drawing.Point(604, 144)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(112, 23)
+        Me.Button1.TabIndex = 11
+        Me.Button1.Text = "Back"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(733, 281)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.btndelete)
         Me.Controls.Add(Me.btnedit)
@@ -252,4 +266,5 @@ Partial Class Form4
     Friend WithEvents AddressDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents BlueHouseAppartmentDataSet4 As BlueHouseAppartmentDataSet
     Friend WithEvents BlueHouseAppartmentDataSet5 As BlueHouseAppartmentDataSet
+    Friend WithEvents Button1 As Button
 End Class
