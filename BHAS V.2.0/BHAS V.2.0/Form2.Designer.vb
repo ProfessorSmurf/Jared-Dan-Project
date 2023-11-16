@@ -37,9 +37,8 @@ Partial Class Form2
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(1, 0)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(463, 334)
+        Me.PictureBox1.Size = New System.Drawing.Size(347, 271)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -49,10 +48,9 @@ Partial Class Form2
         Me.btnlogin.BackColor = System.Drawing.SystemColors.HotTrack
         Me.btnlogin.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnlogin.ForeColor = System.Drawing.Color.White
-        Me.btnlogin.Location = New System.Drawing.Point(203, 191)
-        Me.btnlogin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnlogin.Location = New System.Drawing.Point(152, 155)
         Me.btnlogin.Name = "btnlogin"
-        Me.btnlogin.Size = New System.Drawing.Size(185, 39)
+        Me.btnlogin.Size = New System.Drawing.Size(139, 32)
         Me.btnlogin.TabIndex = 1
         Me.btnlogin.Text = "LOGIN"
         Me.btnlogin.UseVisualStyleBackColor = False
@@ -60,20 +58,18 @@ Partial Class Form2
         'txtuser
         '
         Me.txtuser.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtuser.Location = New System.Drawing.Point(188, 95)
-        Me.txtuser.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtuser.Location = New System.Drawing.Point(141, 77)
         Me.txtuser.Name = "txtuser"
-        Me.txtuser.Size = New System.Drawing.Size(220, 33)
+        Me.txtuser.Size = New System.Drawing.Size(166, 28)
         Me.txtuser.TabIndex = 2
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(53, 98)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(40, 80)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(121, 27)
+        Me.Label1.Size = New System.Drawing.Size(95, 22)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Username:"
         '
@@ -81,21 +77,19 @@ Partial Class Form2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(60, 152)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(45, 124)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(114, 27)
+        Me.Label2.Size = New System.Drawing.Size(94, 22)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Password:"
         '
         'txtpass
         '
         Me.txtpass.Font = New System.Drawing.Font("Elephant", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtpass.Location = New System.Drawing.Point(188, 150)
-        Me.txtpass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtpass.Location = New System.Drawing.Point(141, 122)
         Me.txtpass.Name = "txtpass"
         Me.txtpass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtpass.Size = New System.Drawing.Size(220, 33)
+        Me.txtpass.Size = New System.Drawing.Size(166, 28)
         Me.txtpass.TabIndex = 5
         '
         'Button2
@@ -103,19 +97,18 @@ Partial Class Form2
         Me.Button2.BackColor = System.Drawing.Color.IndianRed
         Me.Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(203, 238)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Location = New System.Drawing.Point(152, 193)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(185, 39)
+        Me.Button2.Size = New System.Drawing.Size(139, 32)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "BACK"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(461, 331)
+        Me.ClientSize = New System.Drawing.Size(346, 269)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.txtpass)
         Me.Controls.Add(Me.Label2)
@@ -123,8 +116,8 @@ Partial Class Form2
         Me.Controls.Add(Me.txtuser)
         Me.Controls.Add(Me.btnlogin)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login for Administrator"
