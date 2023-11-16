@@ -87,10 +87,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>CCAC1B0A1D24869495F8408AF7F5315E2E86DBF2</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>5C16ABEBD7FD9509ED731E199EEDFDA624600131</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>BHAS V.2.0_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>BHAS V.2.0_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -200,6 +200,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BHAS V.2.0_1_TemporaryKey.pfx" />
     <None Include="BHAS V.2.0_TemporaryKey.pfx" />
     <None Include="BlueHouseAppartmentDataSet.xsc">
       <DependentUpon>BlueHouseAppartmentDataSet.xsd</DependentUpon>
