@@ -30,6 +30,7 @@ Partial Class Form2
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtpass = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.checkboxpass = New System.Windows.Forms.CheckBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -48,9 +49,9 @@ Partial Class Form2
         Me.btnlogin.BackColor = System.Drawing.SystemColors.HotTrack
         Me.btnlogin.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnlogin.ForeColor = System.Drawing.Color.White
-        Me.btnlogin.Location = New System.Drawing.Point(152, 155)
+        Me.btnlogin.Location = New System.Drawing.Point(44, 156)
         Me.btnlogin.Name = "btnlogin"
-        Me.btnlogin.Size = New System.Drawing.Size(139, 32)
+        Me.btnlogin.Size = New System.Drawing.Size(171, 32)
         Me.btnlogin.TabIndex = 1
         Me.btnlogin.Text = "LOGIN"
         Me.btnlogin.UseVisualStyleBackColor = False
@@ -77,7 +78,7 @@ Partial Class Form2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(45, 124)
+        Me.Label2.Location = New System.Drawing.Point(40, 124)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(94, 22)
         Me.Label2.TabIndex = 4
@@ -97,18 +98,30 @@ Partial Class Form2
         Me.Button2.BackColor = System.Drawing.Color.IndianRed
         Me.Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(152, 193)
+        Me.Button2.Location = New System.Drawing.Point(44, 194)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(139, 32)
+        Me.Button2.Size = New System.Drawing.Size(171, 32)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "BACK"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'checkboxpass
+        '
+        Me.checkboxpass.AutoSize = True
+        Me.checkboxpass.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.checkboxpass.Location = New System.Drawing.Point(221, 166)
+        Me.checkboxpass.Name = "checkboxpass"
+        Me.checkboxpass.Size = New System.Drawing.Size(99, 17)
+        Me.checkboxpass.TabIndex = 7
+        Me.checkboxpass.Text = "Show Password"
+        Me.checkboxpass.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(346, 269)
+        Me.Controls.Add(Me.checkboxpass)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.txtpass)
         Me.Controls.Add(Me.Label2)
@@ -134,4 +147,5 @@ Partial Class Form2
     Friend WithEvents Label2 As Label
     Friend WithEvents txtpass As TextBox
     Friend WithEvents Button2 As Button
+    Friend WithEvents checkboxpass As CheckBox
 End Class
