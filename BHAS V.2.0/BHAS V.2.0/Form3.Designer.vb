@@ -36,9 +36,10 @@ Partial Class Form3
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 30)
+        Me.PictureBox1.Location = New System.Drawing.Point(16, 37)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(292, 277)
+        Me.PictureBox1.Size = New System.Drawing.Size(389, 341)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -50,9 +51,10 @@ Partial Class Form3
         Me.btnpayments.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnpayments.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnpayments.ForeColor = System.Drawing.Color.White
-        Me.btnpayments.Location = New System.Drawing.Point(334, 144)
+        Me.btnpayments.Location = New System.Drawing.Point(445, 177)
+        Me.btnpayments.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnpayments.Name = "btnpayments"
-        Me.btnpayments.Size = New System.Drawing.Size(119, 38)
+        Me.btnpayments.Size = New System.Drawing.Size(159, 47)
         Me.btnpayments.TabIndex = 6
         Me.btnpayments.Text = "Payments"
         Me.btnpayments.UseVisualStyleBackColor = False
@@ -64,9 +66,10 @@ Partial Class Form3
         Me.btnrooms.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnrooms.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnrooms.ForeColor = System.Drawing.Color.White
-        Me.btnrooms.Location = New System.Drawing.Point(334, 100)
+        Me.btnrooms.Location = New System.Drawing.Point(445, 123)
+        Me.btnrooms.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnrooms.Name = "btnrooms"
-        Me.btnrooms.Size = New System.Drawing.Size(119, 38)
+        Me.btnrooms.Size = New System.Drawing.Size(159, 47)
         Me.btnrooms.TabIndex = 5
         Me.btnrooms.Text = "Rooms"
         Me.btnrooms.UseVisualStyleBackColor = False
@@ -78,9 +81,10 @@ Partial Class Form3
         Me.btnmasterlist.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnmasterlist.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnmasterlist.ForeColor = System.Drawing.Color.White
-        Me.btnmasterlist.Location = New System.Drawing.Point(334, 56)
+        Me.btnmasterlist.Location = New System.Drawing.Point(445, 69)
+        Me.btnmasterlist.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnmasterlist.Name = "btnmasterlist"
-        Me.btnmasterlist.Size = New System.Drawing.Size(119, 38)
+        Me.btnmasterlist.Size = New System.Drawing.Size(159, 47)
         Me.btnmasterlist.TabIndex = 4
         Me.btnmasterlist.Text = "Masterlist"
         Me.btnmasterlist.UseVisualStyleBackColor = False
@@ -89,10 +93,9 @@ Partial Class Form3
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(9, 7)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(42, 16)
+        Me.Label1.Size = New System.Drawing.Size(53, 19)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Label1"
         '
@@ -103,9 +106,10 @@ Partial Class Form3
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(334, 188)
+        Me.Button1.Location = New System.Drawing.Point(445, 231)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(119, 38)
+        Me.Button1.Size = New System.Drawing.Size(159, 47)
         Me.Button1.TabIndex = 8
         Me.Button1.Text = "Collection Data"
         Me.Button1.UseVisualStyleBackColor = False
@@ -117,18 +121,19 @@ Partial Class Form3
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(334, 232)
+        Me.Button2.Location = New System.Drawing.Point(445, 286)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(119, 38)
+        Me.Button2.Size = New System.Drawing.Size(159, 47)
         Me.Button2.TabIndex = 9
         Me.Button2.Text = "Expenses"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Form3
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(487, 334)
+        Me.ClientSize = New System.Drawing.Size(649, 411)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
@@ -137,6 +142,7 @@ Partial Class Form3
         Me.Controls.Add(Me.btnmasterlist)
         Me.Controls.Add(Me.PictureBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form3"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Main Menu"
