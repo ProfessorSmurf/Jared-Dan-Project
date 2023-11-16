@@ -14,6 +14,21 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -68,6 +83,15 @@
     <PlatformTarget>x86</PlatformTarget>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CCAC1B0A1D24869495F8408AF7F5315E2E86DBF2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BHAS V.2.0_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -98,6 +122,21 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BlueHouseAppartmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BlueHouseAppartmentDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlueHouseAppartmentDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BlueHouseAppartmentDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlueHouseAppartmentDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BlueHouseAppartmentDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlueHouseAppartmentDataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -161,6 +200,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="BHAS V.2.0_TemporaryKey.pfx" />
     <None Include="BlueHouseAppartmentDataSet.xsc">
       <DependentUpon>BlueHouseAppartmentDataSet.xsd</DependentUpon>
     </None>
@@ -172,6 +212,39 @@
     <None Include="BlueHouseAppartmentDataSet.xss">
       <DependentUpon>BlueHouseAppartmentDataSet.xsd</DependentUpon>
     </None>
+    <None Include="BlueHouseAppartmentDataSet1.xsc">
+      <DependentUpon>BlueHouseAppartmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BlueHouseAppartmentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BlueHouseAppartmentDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BlueHouseAppartmentDataSet1.xss">
+      <DependentUpon>BlueHouseAppartmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BlueHouseAppartmentDataSet2.xsc">
+      <DependentUpon>BlueHouseAppartmentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BlueHouseAppartmentDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BlueHouseAppartmentDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BlueHouseAppartmentDataSet2.xss">
+      <DependentUpon>BlueHouseAppartmentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BlueHouseAppartmentDataSet3.xsc">
+      <DependentUpon>BlueHouseAppartmentDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BlueHouseAppartmentDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BlueHouseAppartmentDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BlueHouseAppartmentDataSet3.xss">
+      <DependentUpon>BlueHouseAppartmentDataSet3.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -182,6 +255,18 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -27,3 +27,4 @@ C:\Users\zexio\Source\Repos\ProfessorSmurf\Jared-Dan-Project\BHAS V.2.0\BHAS V.2
 C:\Users\zexio\Source\Repos\ProfessorSmurf\Jared-Dan-Project\BHAS V.2.0\BHAS V.2.0\obj\Debug\BHAS V.2.0.xml
 C:\Users\zexio\Source\Repos\ProfessorSmurf\Jared-Dan-Project\BHAS V.2.0\BHAS V.2.0\obj\Debug\BHAS V.2.0.pdb
 C:\Users\zexio\Source\Repos\ProfessorSmurf\Jared-Dan-Project\BHAS V.2.0\BHAS V.2.0\obj\Debug\BHAS_V._2._0.Form4.resources
+C:\Users\admin\Documents\GitHub\Jared-Dan-Project\BHAS V.2.0\BHAS V.2.0\obj\Debug\BHAS_V._2._0.Form4.resources
