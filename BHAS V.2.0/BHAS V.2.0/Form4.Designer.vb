@@ -65,7 +65,7 @@ Partial Class Form4
         Me.btndelete.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btndelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btndelete.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btndelete.ForeColor = System.Drawing.Color.White
+        Me.btndelete.ForeColor = System.Drawing.Color.Transparent
         Me.btndelete.Location = New System.Drawing.Point(604, 100)
         Me.btndelete.Name = "btndelete"
         Me.btndelete.Size = New System.Drawing.Size(112, 38)
@@ -79,7 +79,7 @@ Partial Class Form4
         Me.btnedit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnedit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnedit.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnedit.ForeColor = System.Drawing.Color.White
+        Me.btnedit.ForeColor = System.Drawing.Color.Transparent
         Me.btnedit.Location = New System.Drawing.Point(604, 56)
         Me.btnedit.Name = "btnedit"
         Me.btnedit.Size = New System.Drawing.Size(112, 38)
@@ -93,7 +93,7 @@ Partial Class Form4
         Me.btnadd.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnadd.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnadd.ForeColor = System.Drawing.Color.White
+        Me.btnadd.ForeColor = System.Drawing.Color.Transparent
         Me.btnadd.Location = New System.Drawing.Point(604, 12)
         Me.btnadd.Name = "btnadd"
         Me.btnadd.Size = New System.Drawing.Size(112, 38)
@@ -205,12 +205,14 @@ Partial Class Form4
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
         Me.Button1.Location = New System.Drawing.Point(604, 144)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 23)
+        Me.Button1.Size = New System.Drawing.Size(112, 33)
         Me.Button1.TabIndex = 11
         Me.Button1.Text = "Back"
         Me.Button1.UseVisualStyleBackColor = False

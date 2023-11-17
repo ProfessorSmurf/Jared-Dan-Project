@@ -50,10 +50,10 @@ Partial Class Form2
         Me.btnlogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnlogin.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnlogin.ForeColor = System.Drawing.Color.White
+        Me.btnlogin.ForeColor = System.Drawing.Color.Transparent
         Me.btnlogin.Location = New System.Drawing.Point(44, 156)
         Me.btnlogin.Name = "btnlogin"
-        Me.btnlogin.Size = New System.Drawing.Size(171, 32)
+        Me.btnlogin.Size = New System.Drawing.Size(91, 32)
         Me.btnlogin.TabIndex = 1
         Me.btnlogin.Text = "LOGIN"
         Me.btnlogin.UseVisualStyleBackColor = False
@@ -63,7 +63,7 @@ Partial Class Form2
         Me.txtuser.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtuser.Location = New System.Drawing.Point(141, 77)
         Me.txtuser.Name = "txtuser"
-        Me.txtuser.Size = New System.Drawing.Size(166, 28)
+        Me.txtuser.Size = New System.Drawing.Size(193, 28)
         Me.txtuser.TabIndex = 2
         '
         'Label1
@@ -91,7 +91,7 @@ Partial Class Form2
         Me.txtpass.Font = New System.Drawing.Font("Elephant", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtpass.Location = New System.Drawing.Point(141, 122)
         Me.txtpass.Name = "txtpass"
-        Me.txtpass.Size = New System.Drawing.Size(166, 28)
+        Me.txtpass.Size = New System.Drawing.Size(193, 28)
         Me.txtpass.TabIndex = 5
         Me.txtpass.UseSystemPasswordChar = True
         '
@@ -101,10 +101,10 @@ Partial Class Form2
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
         Me.Button2.Location = New System.Drawing.Point(44, 194)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(171, 32)
+        Me.Button2.Size = New System.Drawing.Size(91, 32)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "BACK"
         Me.Button2.UseVisualStyleBackColor = False
@@ -113,7 +113,7 @@ Partial Class Form2
         '
         Me.checkboxpass.AutoSize = True
         Me.checkboxpass.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.checkboxpass.Location = New System.Drawing.Point(221, 166)
+        Me.checkboxpass.Location = New System.Drawing.Point(235, 156)
         Me.checkboxpass.Name = "checkboxpass"
         Me.checkboxpass.Size = New System.Drawing.Size(99, 17)
         Me.checkboxpass.TabIndex = 7

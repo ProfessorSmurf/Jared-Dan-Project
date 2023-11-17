@@ -49,7 +49,7 @@ Partial Class Form3
         Me.btnpayments.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnpayments.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnpayments.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnpayments.ForeColor = System.Drawing.Color.White
+        Me.btnpayments.ForeColor = System.Drawing.Color.Transparent
         Me.btnpayments.Location = New System.Drawing.Point(334, 144)
         Me.btnpayments.Name = "btnpayments"
         Me.btnpayments.Size = New System.Drawing.Size(119, 38)
@@ -63,7 +63,7 @@ Partial Class Form3
         Me.btnrooms.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnrooms.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnrooms.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnrooms.ForeColor = System.Drawing.Color.White
+        Me.btnrooms.ForeColor = System.Drawing.Color.Transparent
         Me.btnrooms.Location = New System.Drawing.Point(334, 100)
         Me.btnrooms.Name = "btnrooms"
         Me.btnrooms.Size = New System.Drawing.Size(119, 38)
@@ -77,7 +77,7 @@ Partial Class Form3
         Me.btnmasterlist.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnmasterlist.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnmasterlist.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnmasterlist.ForeColor = System.Drawing.Color.White
+        Me.btnmasterlist.ForeColor = System.Drawing.Color.Transparent
         Me.btnmasterlist.Location = New System.Drawing.Point(334, 56)
         Me.btnmasterlist.Name = "btnmasterlist"
         Me.btnmasterlist.Size = New System.Drawing.Size(119, 38)
@@ -102,7 +102,7 @@ Partial Class Form3
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
         Me.Button1.Location = New System.Drawing.Point(334, 188)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(119, 38)
@@ -116,7 +116,7 @@ Partial Class Form3
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
         Me.Button2.Location = New System.Drawing.Point(334, 232)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(119, 38)

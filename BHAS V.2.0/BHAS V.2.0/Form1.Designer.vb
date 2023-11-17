@@ -49,7 +49,7 @@ Partial Class Form1
         Me.btnadmin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnadmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnadmin.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnadmin.ForeColor = System.Drawing.Color.White
+        Me.btnadmin.ForeColor = System.Drawing.Color.Transparent
         Me.btnadmin.Location = New System.Drawing.Point(21, 241)
         Me.btnadmin.Name = "btnadmin"
         Me.btnadmin.Size = New System.Drawing.Size(119, 38)
@@ -63,7 +63,7 @@ Partial Class Form1
         Me.btnguest.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnguest.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnguest.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnguest.ForeColor = System.Drawing.Color.White
+        Me.btnguest.ForeColor = System.Drawing.Color.Transparent
         Me.btnguest.Location = New System.Drawing.Point(146, 241)
         Me.btnguest.Name = "btnguest"
         Me.btnguest.Size = New System.Drawing.Size(119, 38)
@@ -77,7 +77,7 @@ Partial Class Form1
         Me.btnexit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnexit.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnexit.ForeColor = System.Drawing.Color.White
+        Me.btnexit.ForeColor = System.Drawing.Color.Transparent
         Me.btnexit.Location = New System.Drawing.Point(272, 241)
         Me.btnexit.Name = "btnexit"
         Me.btnexit.Size = New System.Drawing.Size(119, 38)
