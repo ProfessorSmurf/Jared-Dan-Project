@@ -3,11 +3,15 @@
 Public Class Form2
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnlogin.Click
         If txtuser.Text = "" Then
-            MessageBox.Show("Username is Missing")
+            MessageBox.Show("Username is Invalid!")
         ElseIf txtuser.Text = "" And txtpass.Text = "" Then
-            MessageBox.Show("Username and Password is Missing")
+            MessageBox.Show("Username and Password is Missing!")
         ElseIf txtpass.Text = "" Then
-            MessageBox.Show("Password is Missing")
+            MessageBox.Show("Password is Invalid!")
+        ElseIf txtuser.text = "admin" And txtpass.Text = "" Then
+            MessageBox.Show("Password is Missing!")
+        ElseIf txtuser.Text = "" And txtpass.Text = "admin" Then
+            MessageBox.Show("Username is Missing!")
         ElseIf txtuser.Text = "admin" And txtpass.Text = "admin" Then
             Form3.Show()
             Form3.Label1.Text = "You're logged in as Administrator"
@@ -39,6 +43,8 @@ Public Class Form2
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        txtpass.Clear()
+        txtuser.Clear()
         Form1.Show()
         Me.Hide()
 
@@ -49,10 +55,11 @@ Public Class Form2
     End Sub
 
     Private Sub checkboxpass_CheckedChanged(sender As Object, e As EventArgs) Handles checkboxpass.CheckedChanged
-        If checkboxpass.Checked Then
-            txtpass.PasswordChar = '\0'
+        If checkboxpass.Checked = True Then
+            txtpass.UseSystemPasswordChar = False
+
         Else
-            txtpass.PasswordChar = '.'
+            txtpass.UseSystemPasswordChar = True
 
         End If
     End Sub

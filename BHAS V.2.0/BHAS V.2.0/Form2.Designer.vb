@@ -91,9 +91,9 @@ Partial Class Form2
         Me.txtpass.Font = New System.Drawing.Font("Elephant", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtpass.Location = New System.Drawing.Point(141, 122)
         Me.txtpass.Name = "txtpass"
-        Me.txtpass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtpass.Size = New System.Drawing.Size(166, 28)
         Me.txtpass.TabIndex = 5
+        Me.txtpass.UseSystemPasswordChar = True
         '
         'Button2
         '
