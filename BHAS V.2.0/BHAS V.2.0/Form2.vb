@@ -1,4 +1,6 @@
-﻿Public Class Form2
+﻿Imports System.Diagnostics.Eventing.Reader
+
+Public Class Form2
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnlogin.Click
         If txtuser.Text = "" Then
             MessageBox.Show("Username is Missing")
@@ -44,5 +46,14 @@
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
+    End Sub
+
+    Private Sub checkboxpass_CheckedChanged(sender As Object, e As EventArgs) Handles checkboxpass.CheckedChanged
+        If checkboxpass.Checked Then
+            txtpass.PasswordChar = '\0'
+        Else
+            txtpass.PasswordChar = '.'
+
+        End If
     End Sub
 End Class
