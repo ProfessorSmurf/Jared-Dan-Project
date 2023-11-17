@@ -65,10 +65,9 @@ Partial Class Form4
         Me.btndelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btndelete.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btndelete.ForeColor = System.Drawing.Color.White
-        Me.btndelete.Location = New System.Drawing.Point(461, 337)
-        Me.btndelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btndelete.Location = New System.Drawing.Point(478, 272)
         Me.btndelete.Name = "btndelete"
-        Me.btndelete.Size = New System.Drawing.Size(149, 47)
+        Me.btndelete.Size = New System.Drawing.Size(112, 38)
         Me.btndelete.TabIndex = 9
         Me.btndelete.Text = "Delete"
         Me.btndelete.UseVisualStyleBackColor = False
@@ -80,10 +79,9 @@ Partial Class Form4
         Me.btnedit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnedit.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnedit.ForeColor = System.Drawing.Color.White
-        Me.btnedit.Location = New System.Drawing.Point(304, 337)
-        Me.btnedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnedit.Location = New System.Drawing.Point(360, 272)
         Me.btnedit.Name = "btnedit"
-        Me.btnedit.Size = New System.Drawing.Size(149, 47)
+        Me.btnedit.Size = New System.Drawing.Size(112, 38)
         Me.btnedit.TabIndex = 8
         Me.btnedit.Text = "Edit"
         Me.btnedit.UseVisualStyleBackColor = False
@@ -95,10 +93,9 @@ Partial Class Form4
         Me.btnadd.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnadd.Font = New System.Drawing.Font("Elephant", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnadd.ForeColor = System.Drawing.Color.White
-        Me.btnadd.Location = New System.Drawing.Point(147, 337)
-        Me.btnadd.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnadd.Location = New System.Drawing.Point(242, 272)
         Me.btnadd.Name = "btnadd"
-        Me.btnadd.Size = New System.Drawing.Size(149, 47)
+        Me.btnadd.Size = New System.Drawing.Size(112, 38)
         Me.btnadd.TabIndex = 7
         Me.btnadd.Text = "Add"
         Me.btnadd.UseVisualStyleBackColor = False
@@ -109,12 +106,12 @@ Partial Class Form4
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdDataGridViewTextBoxColumn, Me.FullNameDataGridViewTextBoxColumn, Me.ContactNoDataGridViewTextBoxColumn, Me.GenderDataGridViewTextBoxColumn, Me.AddressDataGridViewTextBoxColumn})
         Me.DataGridView1.DataSource = Me.TableBindingSource
-        Me.DataGridView1.Location = New System.Drawing.Point(19, 14)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DataGridView1.Location = New System.Drawing.Point(14, 11)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(765, 299)
+        Me.DataGridView1.Size = New System.Drawing.Size(824, 243)
         Me.DataGridView1.TabIndex = 10
         '
         'IdDataGridViewTextBoxColumn
@@ -217,15 +214,15 @@ Partial Class Form4
         '
         'Form4
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(799, 421)
+        Me.ClientSize = New System.Drawing.Size(843, 342)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.btndelete)
         Me.Controls.Add(Me.btnedit)
         Me.Controls.Add(Me.btnadd)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form4"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Master List"

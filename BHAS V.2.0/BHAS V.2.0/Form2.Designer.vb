@@ -63,7 +63,7 @@ Partial Class Form2
         Me.txtuser.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtuser.Location = New System.Drawing.Point(141, 77)
         Me.txtuser.Name = "txtuser"
-        Me.txtuser.Size = New System.Drawing.Size(166, 28)
+        Me.txtuser.Size = New System.Drawing.Size(179, 28)
         Me.txtuser.TabIndex = 2
         '
         'Label1
@@ -92,7 +92,7 @@ Partial Class Form2
         Me.txtpass.Location = New System.Drawing.Point(141, 122)
         Me.txtpass.Name = "txtpass"
         Me.txtpass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtpass.Size = New System.Drawing.Size(166, 28)
+        Me.txtpass.Size = New System.Drawing.Size(179, 28)
         Me.txtpass.TabIndex = 5
         '
         'Button2
