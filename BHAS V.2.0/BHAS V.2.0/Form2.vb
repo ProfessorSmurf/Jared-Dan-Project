@@ -3,15 +3,11 @@
 Public Class Form2
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnlogin.Click
         If txtuser.Text = "" Then
-            MessageBox.Show("Username is Invalid!")
+            MessageBox.Show("Input Username!")
         ElseIf txtuser.Text = "" And txtpass.Text = "" Then
-            MessageBox.Show("Username and Password is Missing!")
+            MessageBox.Show("Username and Password is Incomplete")
         ElseIf txtpass.Text = "" Then
-            MessageBox.Show("Password is Invalid!")
-        ElseIf txtuser.text = "admin" And txtpass.Text = "" Then
-            MessageBox.Show("Password is Missing!")
-        ElseIf txtuser.Text = "" And txtpass.Text = "admin" Then
-            MessageBox.Show("Username is Missing!")
+            MessageBox.Show("Input Password!")
         ElseIf txtuser.Text = "admin" And txtpass.Text = "admin" Then
             Form3.Show()
             Form3.Label1.Text = "You're logged in as Administrator"
